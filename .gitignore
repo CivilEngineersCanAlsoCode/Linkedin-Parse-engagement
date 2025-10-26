@@ -27,3 +27,4 @@ build/
 *.log
 *.tmp
 .cache/
+linkright-runner/
