@@ -1,0 +1,29 @@
+# Node modules (if using npm for icon generation)
+node_modules/
+package-lock.json
+
+# Python virtual environment (if used)
+venv/
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build artifacts
+dist/
+build/
+*.zip
+
+# Temporary files
+*.log
+*.tmp
+.cache/

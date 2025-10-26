@@ -1,0 +1,33 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with gradient -->
+  <defs>
+    <linearGradient id="tealGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#14b8a6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d9488;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Rounded square background -->
+  <rect x="4" y="4" width="120" height="120" rx="20" ry="20" fill="url(#tealGradient)"/>
+  
+  <!-- Gold border -->
+  <rect x="4" y="4" width="120" height="120" rx="20" ry="20" fill="none" stroke="#fbbf24" stroke-width="4"/>
+  
+  <!-- Smiley face -->
+  <!-- Face circle -->
+  <circle cx="64" cy="64" r="38" fill="#ffffff" opacity="0.95"/>
+  
+  <!-- Eyes -->
+  <circle cx="52" cy="56" r="4" fill="#0d9488"/>
+  <circle cx="76" cy="56" r="4" fill="#0d9488"/>
+  
+  <!-- Blush marks -->
+  <ellipse cx="44" cy="64" rx="6" ry="4" fill="#fbbf24" opacity="0.5"/>
+  <ellipse cx="84" cy="64" rx="6" ry="4" fill="#fbbf24" opacity="0.5"/>
+  
+  <!-- Smile -->
+  <path d="M 52 72 Q 64 82 76 72" stroke="#0d9488" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Small sparkle (gold accent) -->
+  <path d="M 90 26 L 92 30 L 96 32 L 92 34 L 90 38 L 88 34 L 84 32 L 88 30 Z" fill="#fbbf24"/>
+</svg>

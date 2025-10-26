@@ -1,0 +1,16 @@
+{
+  "engagementMode": false,
+  "xRunnerToken": "dev-secure-token-12345",
+  "webhookUrl": "https://n8n.linkright.in/webhook/linkedin-reply",
+  "runnerBaseUrl": "http://127.0.0.1:3001",
+  "privacyPolicyUrl": "https://linkright.in/privacy",
+  "optimizeEngagement": true,
+  "postAnalysisWebhook": "https://n8n.linkright.in/webhook/linkedin-parse",
+  "maxActions": 5,
+  "waitActionMinMs": 500,
+  "waitActionMaxMs": 1000,
+  "waitAfterCommentMinMs": 1000,
+  "waitAfterCommentMaxMs": 2000,
+  "waitBetweenCommentsMinMs": 5000,
+  "waitBetweenCommentsMaxMs": 10000
+}
